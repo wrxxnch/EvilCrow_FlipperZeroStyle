@@ -133,17 +133,18 @@
                 <div class="row g-4">
                     <div class="col-sm-12 col-xl-15">
                         <div class="bg-secondary rounded h-100 p-4">
+                            <div style="text-align: center";> <img id="scanningGif" src="scanning.gif" alt="Recording..." style="width: 50%;display: none;"></div>
                             <h6 class="mb-4">
                                 <img src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNTEyIj48IS0tISBGb250IEF3ZXNvbWUgUHJvIDYuNC4wIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlIChDb21tZXJjaWFsIExpY2Vuc2UpIENvcHlyaWdodCAyMDIzIEZvbnRpY29ucywgSW5jLiAtLT48cGF0aCBkPSJNMTI4IDY0YzAtMTcuNyAxNC4zLTMyIDMyLTMySDMyMGMxNy43IDAgMzIgMTQuMyAzMiAzMlY0MTZoOTZWMjU2YzAtMTcuNyAxNC4zLTMyIDMyLTMySDYwOGMxNy43IDAgMzIgMTQuMyAzMiAzMnMtMTQuMyAzMi0zMiAzMkg1MTJWNDQ4YzAgMTcuNy0xNC4zIDMyLTMyIDMySDMyMGMtMTcuNyAwLTMyLTE0LjMtMzItMzJWOTZIMTkyVjI1NmMwIDE3LjctMTQuMyAzMi0zMiAzMkgzMmMtMTcuNyAwLTMyLTE0LjMtMzItMzJzMTQuMy0zMiAzMi0zMmg5NlY2NHoiLz48L3N2Zz4='
                                     class="fa menu-filter-white me-2" />
                                 Record
                             </h6>
-                            <p>Enabled:
-                                <label class="switch">
-                                    <input type="checkbox" id="txtRecord" onclick="checkRecord(this.checked);">
-                                    <span class="slider round"></span>
-                                </label>
-                            </p>
+<p>Enabled:
+  <label class="switch">
+    <input type="checkbox" id="txtRecord" onclick="checkRecord(this.checked); mostrarGif(this.checked)">
+    <span class="slider round"></span>
+  </label>
+</p>
 
                             <br>
 
@@ -251,6 +252,17 @@
 
     <!-- Notify Libraries -->
     <script src="notify.min.js"></script>
+   <script>
+  function mostrarGif(ativo) {
+    const gif = document.getElementById("scanningGif");
+    if (ativo) {
+      gif.style.display = "inline-block"; // mostra quando ativado
+    } else {
+      gif.style.display = "none"; // esconde quando desativado
+    }
+  }
+</script>
+
     
     <script>
 
