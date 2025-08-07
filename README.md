@@ -47,7 +47,8 @@ Ao conectar-se desabilite a navegação segura e troca de wifi automática
 # Preview
 
 <div align="center">
-  <a href="https://www.youtube.com/watch?v=Pc-R-e6jsEY"><img src="https://i.imgur.com/ypR4gJR.png" alt="IMAGE ALT TEXT"></a>
+  <a href="https://www.youtube.com/watch?v=Pc-R-e6jsEY"><img width="1899" height="932" alt="image" src="https://github.com/user-attachments/assets/8fa2eccc-9930-4be3-9980-bff7c67111b9" />
+</a>
 </div>
 
 <br>
@@ -179,7 +180,9 @@ The first device must be powered ON and connected to the default ECRF network. (
  
 # Features<a id="features"></a>
 
-## 1) Record<a id="record"></a>
+## 1) Record
+<a id="record"><img width="1274" height="673" alt="image" src="https://github.com/user-attachments/assets/41313413-14fc-42d7-8a97-6de1355b7948" />
+</a>
 
 <li><strong>You have the choice to use the existing presets:</strong></li>
 <ul>
@@ -192,7 +195,8 @@ The first device must be powered ON and connected to the default ECRF network. (
 
 <li><strong>You can adjust the minimum RSSI.</strong></li>
 
-<img src="https://i.imgur.com/lkwCiWu.png" alt="IMAGE ALT TEXT">
+<img width="316" height="119" alt="image" src="https://github.com/user-attachments/assets/644f7318-8fbb-419a-b901-81d17c51fa3e" />
+
 
 <li><strong>Received signal format:</strong></li>
 <ul>
@@ -212,7 +216,9 @@ The first device must be powered ON and connected to the default ECRF network. (
 
 <img src="https://i.imgur.com/7NE5ZQH.png" alt="IMAGE ALT TEXT">
 
-## 2) Transmit<a id="transmit"></a>
+## 2) Transmit
+<a id="transmit"><img width="1628" height="717" alt="image" src="https://github.com/user-attachments/assets/a7d8bbe0-161b-416b-8453-2a0f77193402" />
+</a>
 <li><strong>You can send a decimal signal with a known protocol:</strong></li>
 <ul>
 <li>Princeton</li>
@@ -289,7 +295,9 @@ The first device must be powered ON and connected to the default ECRF network. (
 <li><strong>You can apply the frequency found.</strong></li>
 <img src="https://i.imgur.com/WJRIoNc.png" alt="IMAGE ALT TEXT">
 
-## 6) Bruteforcer<a id="bruteforcer"></a>
+## 6) Bruteforcer
+<a id="bruteforcer"><img width="1436" height="869" alt="image" src="https://github.com/user-attachments/assets/00460e93-2399-4e00-af96-cb0e1493f252" />
+</a>
 <li><strong>You can bruteforce a decimal signal with a known protocol:</strong></li>
 <ul>
 <li>Princeton (24bits)</li>
