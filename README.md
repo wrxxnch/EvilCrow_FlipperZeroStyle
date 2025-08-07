@@ -181,7 +181,8 @@ The first device must be powered ON and connected to the default ECRF network. (
 # Features<a id="features"></a>
 
 ## 1) Record
-<a id="record"><img width="1274" height="673" alt="image" src="https://github.com/user-attachments/assets/41313413-14fc-42d7-8a97-6de1355b7948" />
+<a id="record"><img width="1227" height="660" alt="image" src="https://github.com/user-attachments/assets/e3a093fa-ea88-4a99-bf4a-e37d00d0d74f" />
+
 </a>
 
 <li><strong>You have the choice to use the existing presets:</strong></li>
